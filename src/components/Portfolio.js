@@ -21,6 +21,7 @@ export default class Porfolio extends Component {
                           <p>{item.description}</p>
                         </div>
                       </div>
+                          <a href={`${item.projectImg}`}>View Project</a>
                     </a>
                   </div>
                 </div>
