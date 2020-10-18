@@ -29,8 +29,9 @@ const ContactUs = () => {
         <aside className="eigth columns footer-widgets">
           <div className="widget">
 
-            <form>
+            <form id="contactForm">
               <input
+                id="contactName"
                 type="text"
                 placeholder="Your Name"
                 name="name"
@@ -39,6 +40,7 @@ const ContactUs = () => {
                 required
               />
               <input
+                id="contactEmail"
                 type="text"
                 placeholder="Your Email"
                 name="email"
@@ -47,6 +49,7 @@ const ContactUs = () => {
                 required
               />
               <input
+                id="contactSubject"
                 type="text"
                 placeholder="Subject"
                 name="subject"
@@ -54,7 +57,8 @@ const ContactUs = () => {
                 onChange={(e) => setSubject(e.target.value)}
 
               />
-              <textarea 
+              <textarea
+                id="contactMessage" 
                 type="text"
                 value={message}
                 placeholder="Message"   

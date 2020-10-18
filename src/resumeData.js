@@ -127,19 +127,20 @@ let resumeData = {
       name: "Amazon-Clone",
       description:
         "This is a full functional commercial app with also the payment funtionality fully enabled. The back-end was done with firebase, the frontend with react, html and css. You can the clink the link to checkout this project.",
-      imgurl:
-        "https://www.iihglobal.com/wp-content/uploads/2019/09/Amazon-Clone.jpg",
-      projectImg: "https://www.google.com/",
+      imgurl:"https://www.iihglobal.com/wp-content/uploads/2019/09/Amazon-Clone.jpg",
+      projectImg: "https://nnange.github.io/Amazon-Clone/",
     },
     {
-      name: "project2",
-      description: "mobileapp",
-      imgurl: "images/portfolio/project.jpg",
+      name: "WhatsApp-Clone",
+      description: "This is a full functional commercial app with also the payment funtionality fully enabled. The back-end was done with firebase, the frontend with react, html and css. You can the clink the link to checkout this project.",
+      imgurl: "https://www.tutorialxiaomi.com/wp-content/uploads/2018/07/whatsapp-clone.jpg",
+      projectImg: "https://nnange.github.io/WhatsApp-Clones/",
     },
     {
       name: "project3",
       description: "mobileapp",
       imgurl: "images/portfolio/project2.png",
+      projectImg: "https://nnange.github.io/Amazon-Clone/",
     },
     {
       name: "project4",
