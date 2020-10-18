@@ -825,6 +825,8 @@ call-to-action .button {
 #contact p.lead {
    font: 18px/36px 'opensans-light', sans-serif;
    padding-right: 3%;
+   color: whitesmoke;
+   margin-bottom: -20px;
 }
 #contact .header-col { padding-top: 6px; }
 
@@ -837,7 +839,7 @@ call-to-action .button {
    color: #EBEEEE;
 	display: inline-block;
 	float: left;
-   width: 26%;
+   width: 50%;
 }
 #contact input,
 #contact textarea,

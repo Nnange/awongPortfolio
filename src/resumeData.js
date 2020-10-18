@@ -1,5 +1,5 @@
 let resumeData = {
-  imagebaseurl: "https://rbhatia46.github.io/",
+  imagebaseurl: "https://nnange.github.io/",
   name: "Nnange Awong ",
   role: "Fullstack Developer and Data Scientist",
   linkedinId: "Your LinkedIn Id",
@@ -24,9 +24,9 @@ let resumeData = {
     },
   ],
   aboutme:
-    "I a  5th Semester Student at Rhein-Waal University of Applied Sciences pursuing a Bsc in Communication and Information Enginnering. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-  address: "Germany",
-  website: "https://rbhatia46.github.io",
+    "I am a Student at Rhein-Waal University of Applied Sciences pursuing a Bsc in Communication and Information Enginnering. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+  address: "Duisburg, Germany",
+  website: "",
   education: [
     {
       UniversityName: "Rhein-Waal University of Applied Sciences",
@@ -129,7 +129,7 @@ let resumeData = {
         "This is a full functional commercial app with also the payment funtionality fully enabled. The back-end was done with firebase, the frontend with react, html and css. You can the clink the link to checkout this project.",
       imgurl:
         "https://www.iihglobal.com/wp-content/uploads/2019/09/Amazon-Clone.jpg",
-      projectImg: "https://www.google.com/"
+      projectImg: "https://www.google.com/",
     },
     {
       name: "project2",
@@ -140,7 +140,6 @@ let resumeData = {
       name: "project3",
       description: "mobileapp",
       imgurl: "images/portfolio/project2.png",
-
     },
     {
       name: "project4",
