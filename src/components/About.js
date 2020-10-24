@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import LocationOnOutlinedIcon from '@material-ui/icons/LocationOnOutlined';
+import "../CSS/About.css"
+
+
 export default class About extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -29,8 +33,8 @@ export default class About extends Component {
                   <p className="address">
        						<span>{resumeData.name}</span>
                      <br></br>
-       						   <span>
-                     {resumeData.address}
+       						   <span className="location">
+                     <LocationOnOutlinedIcon />{resumeData.address}
                     </span>
                     <br></br>
                     <span>{resumeData.website}</span>

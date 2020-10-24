@@ -24,7 +24,7 @@ let resumeData = {
     },
   ],
   aboutme:
-    "I am a Student at Rhein-Waal University of Applied Sciences pursuing a Bsc in Communication and Information Enginnering. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "I am a Student at Rhein-Waal University of Applied Sciences pursuing a BSc in Communication and Information Engineering. I am a self-taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive about their dreams and keep working towards them.",
   address: "Duisburg, Germany",
   website: "",
   education: [
@@ -126,21 +126,21 @@ let resumeData = {
     {
       name: "Amazon-Clone",
       description:
-        "This is a full functional commercial app with also the payment funtionality fully enabled. The back-end was done with firebase, the frontend with react, html and css. You can the clink the link to checkout this project.",
+        "This is a fully functional commercial app with also the payment functionality fully enabled. The back-end was done with firebase and Redux, the frontend with React, HTML, and CSS. Stripe helped in processing payments. The link below takes you to the project.",
       imgurl:"https://www.iihglobal.com/wp-content/uploads/2019/09/Amazon-Clone.jpg",
       projectImg: "https://nnange.github.io/Amazon-Clone/",
     },
     {
       name: "WhatsApp-Clone",
-      description: "This is a full functional commercial app with also the payment funtionality fully enabled. The back-end was done with firebase, the frontend with react, html and css. You can the clink the link to checkout this project.",
+      description: "This is a demo or clone of whatsapp. It requires a google account for login and user authentication. The back end of this build was done with firebase but the hosting with github. Also, the react context API (Redux) was very helpful in accomplishing this app.",
       imgurl: "https://www.tutorialxiaomi.com/wp-content/uploads/2018/07/whatsapp-clone.jpg",
       projectImg: "https://nnange.github.io/WhatsApp-Clones/",
     },
     {
-      name: "project3",
-      description: "mobileapp",
-      imgurl: "images/portfolio/project2.png",
-      projectImg: "https://nnange.github.io/Amazon-Clone/",
+      name: "Spotify-Clone",
+      description: "This is the Spotify-clone. This build was a tricky one but it has a display of the weekly discovering playlist. The react context API (Redux) came in handy together with Spotify API. A Spotify account will be needed for Login and also accompanied by user authentication.",
+      imgurl: "https://importanceofspotifyclone.weebly.com/uploads/4/6/9/2/46920489/8679033.jpg?459",
+      projectImg: "https://nnange.github.io/spotify-clone/",
     },
     {
       name: "project4",
