@@ -11,8 +11,16 @@ const ContactUs = () => {
 
   const sendMessage = (e) => {
     e.preventDefault();
+
+    
     console.log(name, email, subject, message);
     history.push("/contact");
+
+    setName('');
+    setEmail('');
+    setSubject('');
+    setMessage('');
+
   };
 
   return (

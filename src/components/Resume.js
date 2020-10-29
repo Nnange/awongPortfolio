@@ -4,6 +4,43 @@ export default class Resume extends Component {
     let resumeData = this.props.resumeData;
     return (
       <section id="resume">
+        
+        <div className="row work">
+          <div className="three columns header-col">
+            <h1>
+              <span>Work</span>
+            </h1>
+          </div>
+
+          <div className="nine columns main-col">
+            {resumeData.work &&
+              resumeData.work.map((item) => {
+                return (
+                  <div className="row item">
+                    <div className="twelve columns">
+                      <h3>{item.specialization}</h3>
+                      <p className="info">
+                        {item.CompanyName}
+                        <span>&bull;</span>{" "}
+                        <em className="date">
+                          {item.MonthOfLeaving} {item.YearOfLeaving}
+                        </em>
+                      </p>
+                      <i>
+                        {item.Tasks1} <br/>
+                        {item.Tasks2} <br/>
+                        {item.Tasks3} <br/>
+                        {item.Tasks4} <br/>
+                        {item.Tasks5} <br/>
+                        <hr />
+                      </i>
+                    </div>
+                  </div>
+                );
+              })}
+          </div>
+        </div>
+
         <div className="row education">
           <div className="three columns header-col">
             <h1>
@@ -20,47 +57,14 @@ export default class Resume extends Component {
                       <h3>{item.UniversityName}</h3>
                       <p className="info">
                         {item.specialization}
-                        <span>&bull;</span>{" "}
+                        <span>&bull;</span>{" "} 
                         <em className="date">
-                          {item.MonthOfPassing} {item.YearOfPassing}
+                          {item.MonthOfPassing} {item.YearOfPassing} 
                         </em>
                       </p>
-                      <p>{item.Achievements}</p>
+                      <span>{item.Achievements}</span> 
                     </div>
-                  </div>
-                );
-              })}
-          </div>
-        </div>
-        <div className="row work">
-          <div className="three columns header-col">
-            <h1>
-              <span>Work</span>
-            </h1>
-          </div>
-
-          <div className="nine columns main-col">
-            {resumeData.work &&
-              resumeData.work.map((item) => {
-                return (
-                  <div className="row item">
-                    <div className="twelve columns">
-                      <h3>{item.CompanyName}</h3>
-                      <p className="info">
-                        {item.specialization}
-                        <span>&bull;</span>{" "}
-                        <em className="date">
-                          {item.MonthOfLeaving} {item.YearOfLeaving}
-                        </em>
-                      </p>
-                      <i>
-                        {item.Tasks1}
-                        {item.Tasks2}
-                        {item.Tasks3}
-                        {item.Tasks4}
-                        {item.Tasks5}
-                      </i>
-                    </div>
+                    <hr />
                   </div>
                 );
               })}

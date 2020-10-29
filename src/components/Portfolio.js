@@ -27,7 +27,7 @@ export default class Porfolio extends Component {
                       </div>
                     </a>
                   </div>
-                  <a target="_blank" href={`${item.projectImg}`}>View Project</a>
+                  <a className="button" target="_blank" href={`${item.projectImg}`}>View Project</a>
                 </div>
               )
             })

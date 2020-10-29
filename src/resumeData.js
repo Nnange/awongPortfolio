@@ -1,6 +1,6 @@
 let resumeData = {
   imagebaseurl: "https://nnange.github.io/",
-  name: "Nnange Awong ",
+  name: "Nnange Awong",
   role: "Fullstack Developer and Data Scientist",
   linkedinId: "Your LinkedIn Id",
   skypeid: "Your skypeid",
@@ -100,7 +100,7 @@ let resumeData = {
         "• Assisted in the development of websites using several languages",
       Tasks3:
         "• Performed It related task which was assigned to me by the coordinator.",
-      Tasks5:
+      Tasks4:
         "• Performed regular upgrades to ensure the ongoing security and efficiency of company software and systems.",
     },
   ],
@@ -143,9 +143,10 @@ let resumeData = {
       projectImg: "https://nnange.github.io/spotify-clone/",
     },
     {
-      name: "project4",
+      name: "Netflix-Clone",
       description: "mobileapp",
-      imgurl: "images/portfolio/phone.jpg",
+      imgurl: "https://www.360technosoft.com/images/netflix-app-development.jpg",
+      projectImg: " https://nnange.github.io/netflix-clone/",
     },
   ],
   testimonials: [
