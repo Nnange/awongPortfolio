@@ -144,9 +144,15 @@ let resumeData = {
     },
     {
       name: "Netflix-Clone",
-      description: "mobileapp",
+      description: "",
       imgurl: "https://www.360technosoft.com/images/netflix-app-development.jpg",
       projectImg: " https://nnange.github.io/netflix-clone/",
+    },
+    {
+      name: "New Project",
+      description: "mobileapp",
+      imgurl: "",
+      projectImg: "",
     },
   ],
   testimonials: [
