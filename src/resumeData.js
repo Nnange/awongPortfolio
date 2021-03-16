@@ -74,35 +74,28 @@ let resumeData = {
         "• Performed other IT related duties as assigned on request by the IT department.",
     },
     {
-      CompanyName: "Njorku",
-      specialization: "Working Student at NJORKU (Job Search Engine), Buea",
+      CompanyName: "MTN Telecommunication Buea, Cameroon",
+      specialization: "Working Student in Web development",
       MonthOfLeaving: "Mar 2017",
-      YearOfLeaving: "– Aug 2017",
-      Tasks1:
-        "• Developing client websites using a variety of programming languages.",
-      Tasks2:
-        "• Simultaneous management of development elements of all client projects using agile methodology.",
-      Tasks3:
-        "• Coding front and back end solutions in a variety of languages including dynamic elements.",
-      Tasks4:
-        "• Maintained responsibility for the execution of routine backups and disasters recovery and partook in the installation and maintenance over company printer and equipment.",
-      Tasks5:
-        "• Assisted in the troubleshooting and resolution of any IOS issues on Apple Devices and as well as other devices in the company.",
-    },
-    {
-      CompanyName: "Aramdou",
-      specialization: "Working Student at Aramdou, Buea (Cameroon)",
-      MonthOfLeaving: "Sept 2017",
       YearOfLeaving: "– Jan 2018",
       Tasks1:
-        "• Worked in a dynamic development team, reporting directly to creative director.",
+        "• Developing client websites using a variety of programming languages such as Javascript, React, HTML, CSS etc.",
       Tasks2:
-        "• Assisted in the development of websites using several languages",
+        "• Multi-project management and development with the use of agile methodology.",
       Tasks3:
-        "• Performed It related task which was assigned to me by the coordinator.",
+        "• Develop, design and code front/back end solutions in a variety of languages (React, Node.js, Express etc.) including dynamic elements.",
       Tasks4:
+        "• Maintained responsibility for the execution of routine backups and test disaster recovery protocols",
+      Tasks6:
+        "• Assisted in the troubleshooting and resolution of any IOS issues on Apple Devices and as well as other devices in the company.",
+      Tasks7:
+        "• Worked in a dynamic development team, reporting directly to creative director.",
+      Tasks8:
+        "• Was an integral part of a scrum team in MTN initiative and support the analysis and documentation of business requirements and processes.",
+      Tasks9:
         "• Performed regular upgrades to ensure the ongoing security and efficiency of company software and systems.",
-    },
+      },
+    
   ],
   skillsDescription: "Your skills here",
   skills: [
