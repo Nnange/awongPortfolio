@@ -63,15 +63,11 @@ let resumeData = {
       specialization: "Intern Assistant / Information Technology Assistant",
       MonthOfLeaving: "Jun 2016",
       YearOfLeaving: "– Sep 2016",
-      Tasks1:
-        "• Coordinating with different departments to provide support and documentation for IT processes.",
-      Tasks2:
-        "• Providing technological support to include hardware and software troubleshooting.",
+      Tasks1: "• Coordinating with different departments to provide support and documentation for IT processes.",
+      Tasks2: "• Providing technological support to include hardware and software troubleshooting.",
       Tasks3: "• Assisting with IRGM website content maintenance.",
-      Tasks4:
-        "• Creating technical specifications, operating procedures and other support documentation for technology stakeholders.",
-      Tasks5:
-        "• Performed other IT related duties as assigned on request by the IT department.",
+      Tasks4: "• Creating technical specifications, operating procedures and other support documentation for technology stakeholders.",
+      Tasks5: "• Performed other IT related duties as assigned on request by the IT department.",
     },
     {
       CompanyName: "MTN Telecommunication Buea, Cameroon",
@@ -86,13 +82,13 @@ let resumeData = {
         "• Develop, design and code front/back end solutions in a variety of languages (React, Node.js, Express etc.) including dynamic elements.",
       Tasks4:
         "• Maintained responsibility for the execution of routine backups and test disaster recovery protocols",
-      Tasks6:
+      Tasks5:
         "• Assisted in the troubleshooting and resolution of any IOS issues on Apple Devices and as well as other devices in the company.",
-      Tasks7:
+      Tasks6:
         "• Worked in a dynamic development team, reporting directly to creative director.",
-      Tasks8:
+      Tasks7:
         "• Was an integral part of a scrum team in MTN initiative and support the analysis and documentation of business requirements and processes.",
-      Tasks9:
+      Tasks8:
         "• Performed regular upgrades to ensure the ongoing security and efficiency of company software and systems.",
       },
     
@@ -138,8 +134,8 @@ let resumeData = {
     {
       name: "Netflix-Clone",
       description: "",
-      imgurl: "https://www.360technosoft.com/images/netflix-app-development.jpg",
-      projectImg: " https://nnange.github.io/netflix-clone/",
+      imgurl: "https://merehead.com/blog/wp-content/uploads/Netflix.jpg",
+      projectImg: "https://nnange.github.io/netflix-clone/",
     },
     {
       name: "New Project",

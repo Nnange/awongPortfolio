@@ -32,6 +32,10 @@ export default class Resume extends Component {
                         {item.Tasks3} <br/>
                         {item.Tasks4} <br/>
                         {item.Tasks5} <br/>
+                        {item.Tasks6} <br/>
+                        {item.Tasks7} <br/>
+                        {item.Tasks8} <br/>
+                        {item.Tasks9} <br/>
                         <hr />
                       </i>
                     </div>
