@@ -33,7 +33,7 @@ let resumeData = {
       specialization: "Communication and Information Engineering",
       MonthOfPassing: "Oct 2018",
       YearOfPassing: "Present",
-      Achievements: "• 5th Semester",
+      Achievements: "• 7th Semester",
     },
     {
       UniversityName: "University of Buea",
@@ -57,7 +57,43 @@ let resumeData = {
       Achievements: "• 11 GCE Ordinary Level Certificate",
     },
   ],
+  
   work: [
+    {
+      CompanyName: "Curawork UG Bielefeld, Germany",
+      specialization: "Web development",
+      MonthOfLeaving: "April 2021",
+      YearOfLeaving: "– Sep 2021",
+      Tasks1: "• Frontend development of the UI and the UX through design implementation of the various features of the Curawork platform.",
+      Tasks2: "• Ensuring that data is managed and processed securely.",
+      Tasks3: "• Support the development, optimization and implementation of the platform with its features.      ",
+      Tasks4: "• Creation of the UI with the design templates already available on figma and also ensuring good scaling for different screen sizes using a variety of programming Languages such as Javascript, Bootstrap, HTML and CSS.",
+      Tasks5: "• Working also on the implementation of some backend features using PHP Laravel.",
+      Tasks6: "• Collaborating in the planning and implementation of projects.",
+      Tasks7: "• Contributing ideas in a team as an IT mastermind also taking responsibility for the front-end architecture.",
+    },
+    {
+      CompanyName: "MTN Telecommunication Buea, Cameroon",
+      specialization: "Working Student in Web development",
+      MonthOfLeaving: "Mar 2017",
+      YearOfLeaving: "– Jan 2018",
+      Tasks1:
+      "• Developing client websites using a variety of programming languages such as Javascript, React, HTML, CSS etc.",
+      Tasks2:
+      "• Multi-project management and development with the use of agile methodology.",
+      Tasks3:
+      "• Develop, design and code front/back end solutions in a variety of languages (React, Node.js, Express etc.) including dynamic elements.",
+      Tasks4:
+      "• Maintained responsibility for the execution of routine backups and test disaster recovery protocols",
+      Tasks5:
+      "• Assisted in the troubleshooting and resolution of any IOS issues on Apple Devices and as well as other devices in the company.",
+      Tasks6:
+      "• Worked in a dynamic development team, reporting directly to creative director.",
+      Tasks7:
+      "• Was an integral part of a scrum team in MTN initiative and support the analysis and documentation of business requirements and processes.",
+      Tasks8:
+      "• Performed regular upgrades to ensure the ongoing security and efficiency of company software and systems.",
+    },
     {
       CompanyName: "Institute of Geology and Mining Research",
       specialization: "Intern Assistant / Information Technology Assistant",
@@ -69,28 +105,6 @@ let resumeData = {
       Tasks4: "• Creating technical specifications, operating procedures and other support documentation for technology stakeholders.",
       Tasks5: "• Performed other IT related duties as assigned on request by the IT department.",
     },
-    {
-      CompanyName: "MTN Telecommunication Buea, Cameroon",
-      specialization: "Working Student in Web development",
-      MonthOfLeaving: "Mar 2017",
-      YearOfLeaving: "– Jan 2018",
-      Tasks1:
-        "• Developing client websites using a variety of programming languages such as Javascript, React, HTML, CSS etc.",
-      Tasks2:
-        "• Multi-project management and development with the use of agile methodology.",
-      Tasks3:
-        "• Develop, design and code front/back end solutions in a variety of languages (React, Node.js, Express etc.) including dynamic elements.",
-      Tasks4:
-        "• Maintained responsibility for the execution of routine backups and test disaster recovery protocols",
-      Tasks5:
-        "• Assisted in the troubleshooting and resolution of any IOS issues on Apple Devices and as well as other devices in the company.",
-      Tasks6:
-        "• Worked in a dynamic development team, reporting directly to creative director.",
-      Tasks7:
-        "• Was an integral part of a scrum team in MTN initiative and support the analysis and documentation of business requirements and processes.",
-      Tasks8:
-        "• Performed regular upgrades to ensure the ongoing security and efficiency of company software and systems.",
-      },
     
   ],
   skillsDescription: "Your skills here",
