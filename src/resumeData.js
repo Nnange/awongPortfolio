@@ -1,11 +1,11 @@
 let resumeData = {
   imagebaseurl: "https://nnange.github.io/",
   name: "Nnange Awong",
-  role: "Fullstack Developer and Data Scientist",
+  role: "IT Specialist | AI Enthusiast",
   linkedinId: "Your LinkedIn Id",
   skypeid: "Your skypeid",
   roleDescription:
-    "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    " I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
   socialLinks: [
     {
       name: "linkedin",
@@ -24,7 +24,7 @@ let resumeData = {
     },
   ],
   aboutme:
-    "I am a Student at Rhein-Waal University of Applied Sciences pursuing a BSc in Communication and Information Engineering. I am a self-taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive about their dreams and keep working towards them.",
+    "I am a Student at Rhein-Waal University of Applied Sciences pursuing a BSc in Communication and Information Engineering. I am a self-taught Full Stack Web Developer, currently diving deeper into cloud engineering and IT system operations. I believe that to be successful in life, one needs to be obsessive about their dreams and keep working towards them.",
   address: "Duisburg, Germany",
   website: "",
   education: [
@@ -33,7 +33,7 @@ let resumeData = {
       specialization: "Communication and Information Engineering",
       MonthOfPassing: "Oct 2018",
       YearOfPassing: "Present",
-      Achievements: "• 7th Semester",
+      Achievements: "• Present",
     },
     {
       UniversityName: "University of Buea",
@@ -59,6 +59,20 @@ let resumeData = {
   ],
   
   work: [
+    {
+      CompanyName: "DKB Code Factory GmbH",
+      specialization: "IT System Administrator in DevOps Team",
+      MonthOfLeaving: "April 2022",
+      YearOfLeaving: "– Aug 2021",
+      Tasks1: "• Troubleshooting and supporting existing IT systems (cloud and on-premises)",
+      Tasks2: "• Installing and configuring software and hardware",
+      Tasks3: "• Set up accounts and workstations",
+      Tasks4: "• Working on the Continuous Integration / Continuous Delivery process",
+      Tasks5: "• Enhancing our highly accessible platform while using the latest technologies like AWS, Kubernetes, Ansible, Docker",
+      Tasks6: "• Setup and maintaining MacOS/Linux/Windows hardware",
+      Tasks7: "• Managing Microsoft Outlook accounts",
+      Tasks8: "• Proactively identify and address new requirements and potential problems",
+    },
     {
       CompanyName: "Curawork UG Bielefeld, Germany",
       specialization: "Web development",
