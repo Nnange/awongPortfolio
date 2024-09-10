@@ -1,3 +1,5 @@
+import { duration } from "@material-ui/core";
+
 let resumeData = {
   imagebaseurl: "https://nnange.github.io/",
   name: "Nnange Awong",
@@ -5,7 +7,7 @@ let resumeData = {
   linkedinId: "Your LinkedIn Id",
   skypeid: "Your skypeid",
   roleDescription:
-    " I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    " I like dabbling in various parts of frontend/backend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
   socialLinks: [
     {
       name: "linkedin",
@@ -24,46 +26,70 @@ let resumeData = {
     },
   ],
   aboutme:
-    "I am a Student at Rhein-Waal University of Applied Sciences pursuing a BSc in Communication and Information Engineering. I am a self-taught Full Stack Web Developer, currently diving deeper into cloud engineering and IT system operations. I believe that to be successful in life, one needs to be obsessive about their dreams and keep working towards them.",
+    "I hold a BSc in Communication and Information Engineering and am currently pursuing an MSc in Information Engineering and Computer" + 
+    "Science at Rhein-Waal University of Applied Sciences. " + 
+    "My background blends communication technologies with advanced computing, equipping me with a solid foundation in both fields. "+
+    "Furthermore, I am self-taught Full Stack Web Developer, currently diving deeper into cloud engineering and IT system operations. "+
+    "I believe that to be successful in life, one needs to be obsessive about their dreams and keep working towards them.",
+    /*I am passionate about developing innovative solutions at the intersection of these disciplines */
   address: "Duisburg, Germany",
-  website: "",
+  website: "https://www.nnangedev.online",
   education: [
     {
       UniversityName: "Rhein-Waal University of Applied Sciences",
-      specialization: "Communication and Information Engineering",
-      MonthOfPassing: "Oct 2018",
-      YearOfPassing: "Present",
-      Achievements: "• Present",
+      specialization: "Information Engineering and Computer Science (Msc)",
+      MonthOfPassing: "Sept 2024",
+      YearOfPassing:  "present",
+      duration: "Ongoing",
+      Achievements:   "• Present",
     },
     {
-      UniversityName: "University of Buea",
-      specialization: "Computer Engineering",
+      UniversityName: "Rhein-Waal University of Applied Sciences",
+      specialization: "Communication and Information Engineering (Bsc)",
       MonthOfPassing: "Oct 2018",
-      YearOfPassing: "- Sept 2018",
-      Achievements: "• Stopped in the 4th Semester",
+      YearOfPassing:  "Aug 2024",
+      duration: "6 years",
+      Achievements:   "Bsc Communication and Information Engineering",
     },
     {
       UniversityName: "Saint Joseph College Sasse, Buea (Cameroon)",
-      specialization: "Higher Education",
+      specialization: "High School Education",
       MonthOfPassing: "Sept 2014",
-      YearOfPassing: "- June 2016",
-      Achievements: "• 5 GCE Advance Level Certificate (Abitur)",
+      YearOfPassing: "June 2016",
+      duration: "2 years",
+      Achievements: "• 5 Subjects Cameroon GCE Advance Level Certificate (Abitur)",
     },
     {
       UniversityName: "Saint Joseph College Sasse, Buea (Cameroon)",
-      specialization: "Secondary Education",
+      specialization: "Secondary School Education",
       MonthOfPassing: "Sept 2009",
-      YearOfPassing: "- June 2014",
-      Achievements: "• 11 GCE Ordinary Level Certificate",
+      YearOfPassing: "June 2014",
+      duration: "5 years",
+      Achievements: "• 11 Subjects Cameroon GCE Ordinary Level Certificate",
     },
   ],
   
   work: [
     {
+      CompanyName: "Amadeus Leisure IT GmbH",
+      specialization: "Working Student in Software Development",
+      MonthOfLeaving: "May 2023",
+      YearOfLeaving: "present",
+      duration: "1 yr 5 mos +",
+      Tasks1: "• Developed and maintained scalable web applications using Angular, Svelte kit, and Node.js, improving application performance and user engagement.",
+      Tasks2: "• Collaborated with senior developers and cross-functional teams, participating in code reviews, and providing constructive feedback, which enhanced the overall code quality.",
+      Tasks3: "• Implemented unit tests and end-to-end tests using Jest and Cypress.",
+      Tasks4: "• Managed version control using Git, maintaining a clean and organized codebase, and facilitating smooth collaboration among team members.",
+      Tasks5: "• Contributed to the documentation of technical specifications and user guides, aiding in knowledge transfer.",
+      Tasks6: "• Participated in Agile ceremonies such as daily stand-ups, sprint planning, and retrospectives, ensuring effective communication and continuous improvement within the team.",
+      Tasks7: "• Working on the Continuous Integration / Continuous Delivery process",
+    },
+    {
       CompanyName: "DKB Code Factory GmbH",
       specialization: "IT System Administrator in DevOps Team",
       MonthOfLeaving: "April 2022",
-      YearOfLeaving: "– Aug 2021",
+      YearOfLeaving: "Aug 2021",
+      duration: "5 mos",
       Tasks1: "• Troubleshooting and supporting existing IT systems (cloud and on-premises)",
       Tasks2: "• Installing and configuring software and hardware",
       Tasks3: "• Set up accounts and workstations",
@@ -77,7 +103,8 @@ let resumeData = {
       CompanyName: "Curawork UG Bielefeld, Germany",
       specialization: "Web development",
       MonthOfLeaving: "April 2021",
-      YearOfLeaving: "– Sep 2021",
+      YearOfLeaving: "Sep 2021",
+      duration: "6 mos",
       Tasks1: "• Frontend development of the UI and the UX through design implementation of the various features of the Curawork platform.",
       Tasks2: "• Ensuring that data is managed and processed securely.",
       Tasks3: "• Support the development, optimization and implementation of the platform with its features.      ",
@@ -90,7 +117,8 @@ let resumeData = {
       CompanyName: "MTN Telecommunication Buea, Cameroon",
       specialization: "Working Student in Web development",
       MonthOfLeaving: "Mar 2017",
-      YearOfLeaving: "– Jan 2018",
+      YearOfLeaving: "Jan 2018",
+      duration: "11 mos",
       Tasks1:
       "• Developing client websites using a variety of programming languages such as Javascript, React, HTML, CSS etc.",
       Tasks2:
@@ -112,7 +140,8 @@ let resumeData = {
       CompanyName: "Institute of Geology and Mining Research",
       specialization: "Intern Assistant / Information Technology Assistant",
       MonthOfLeaving: "Jun 2016",
-      YearOfLeaving: "– Sep 2016",
+      YearOfLeaving: "Sep 2016",
+      duration: "4 mos",
       Tasks1: "• Coordinating with different departments to provide support and documentation for IT processes.",
       Tasks2: "• Providing technological support to include hardware and software troubleshooting.",
       Tasks3: "• Assisting with IRGM website content maintenance.",

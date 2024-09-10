@@ -7,7 +7,7 @@ import Testimonials from "./components/Testimonials";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 import resumeData from "./resumeData";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Contact from "./components/Contact";
 
 
@@ -16,22 +16,24 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <Switch>
+          <Routes>
 
-            <Route path="/contact">
-              <Contact />
-            </Route>
+            <Route path="/contact" element={<Contact/>}/>
 
-            <Route path="/">
-            <Header resumeData={resumeData} />
-            <About resumeData={resumeData} />
-            <Resume resumeData={resumeData} />
-            <Portfolio resumeData={resumeData} />
-            {/* <Testimonials resumeData={resumeData} /> */}
-            <ContactUs resumeData={resumeData} />
-            <Footer resumeData={resumeData} />
-            </Route>
-          </Switch>
+            <Route path="/" element={
+              <>
+                <Header resumeData={resumeData} />
+                <About resumeData={resumeData} />
+                <Resume resumeData={resumeData} />
+                <Portfolio resumeData={resumeData} />
+                <ContactUs resumeData={resumeData} />
+                <Footer resumeData={resumeData} /> 
+              </>
+            }/>
+            
+            {/* <Route element={<Testimonials resumeData={resumeData} />}/> */}
+                      
+          </Routes>
        </div>
       </Router>
       
