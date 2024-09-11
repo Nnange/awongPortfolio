@@ -12,15 +12,15 @@ export default class Porfolio extends Component {
           <h2>Double tap image to see project description on mobile devices</h2>
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
-            resumeData.portfolio && resumeData.portfolio.map((item)=>{
+            resumeData.portfolio && resumeData.portfolio.map((item, i)=>{
               return(
-                <div className="columns portfolio-item">
+                <div className="columns portfolio-item" key={i}>
                   <h1 className="projectName">{item.name}</h1>
                   <div className="item-wrap">
                     <a href="#modal-01">
                       <img src={`${item.imgurl}`} className="item-img"/>
                       <div className="overlay">
-                        <div className="portfolio-item-meta">
+                        <div className="portfolio-item-meta" >
                           <h5>{item.name}</h5>
                           <p className="description">{item.description}</p>
                         </div>
