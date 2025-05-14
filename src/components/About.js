@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import LocationOnOutlinedIcon from '@material-ui/icons/LocationOnOutlined';
+import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import "../CSS/About.css"
 
 

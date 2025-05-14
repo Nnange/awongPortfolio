@@ -1,9 +1,8 @@
-import { duration } from "@material-ui/core";
 
-let resumeData = {
+const resumeData = {
   imagebaseurl: "https://nnange.github.io/",
   name: "Nnange Awong",
-  role: "IT Specialist | AI Enthusiast",
+  role: "Software Developer | AI Enthusiast",
   linkedinId: "Your LinkedIn Id",
   skypeid: "Your skypeid",
   roleDescription:
@@ -37,7 +36,7 @@ let resumeData = {
   education: [
     {
       UniversityName: "Rhein-Waal University of Applied Sciences",
-      specialization: "Information Engineering and Computer Science (Msc)",
+      specialization: "Information Engineering and Computer Science (MSc)",
       MonthOfPassing: "Sept 2024",
       YearOfPassing:  "present",
       duration: "Ongoing",
@@ -45,11 +44,11 @@ let resumeData = {
     },
     {
       UniversityName: "Rhein-Waal University of Applied Sciences",
-      specialization: "Communication and Information Engineering (Bsc)",
+      specialization: "Communication and Information Engineering (BSc)",
       MonthOfPassing: "Oct 2018",
       YearOfPassing:  "Aug 2024",
       duration: "6 years",
-      Achievements:   "Bsc Communication and Information Engineering",
+      Achievements:   "BSc Communication and Information Engineering",
     },
     {
       UniversityName: "Saint Joseph College Sasse, Buea (Cameroon)",
@@ -71,11 +70,11 @@ let resumeData = {
   
   work: [
     {
-      CompanyName: "Amadeus Leisure IT GmbH",
+      CompanyName: "Amadeus, Herzogenrath, DE",
       specialization: "Working Student in Software Development",
       MonthOfLeaving: "May 2023",
       YearOfLeaving: "present",
-      duration: "1 yr 5 mos +",
+      duration: "2 yrs +",
       Tasks1: "• Developed and maintained scalable web applications using Angular, Svelte kit, and Node.js, improving application performance and user engagement.",
       Tasks2: "• Collaborated with senior developers and cross-functional teams, participating in code reviews, and providing constructive feedback, which enhanced the overall code quality.",
       Tasks3: "• Implemented unit tests and end-to-end tests using Jest and Cypress.",
@@ -85,7 +84,21 @@ let resumeData = {
       Tasks7: "• Working on the Continuous Integration / Continuous Delivery process",
     },
     {
-      CompanyName: "DKB Code Factory GmbH",
+      CompanyName: "Rheinmetall, Düsseldorf, DE",
+      specialization: "IT Onsite Support",
+      MonthOfLeaving: "Mar 2023",
+      YearOfLeaving: "April 2023",
+      duration: "2 mos",
+      Tasks1: "• Technical support for end-users, including guidance on the use of various hardware and software tools",
+      Tasks2: "• Installation, configuration and maintenance of the hardware and software tools used by the organization",
+      Tasks3: "• Implemented unit tests and end-to-end tests using Jest and Cypress.",
+      Tasks4: "• Managed version control using Git, maintaining a clean and organized codebase, and facilitating smooth collaboration among team members",
+      Tasks5: "• Management of the IT inventory",
+      Tasks6: "• Participated in Agile ceremonies such as daily stand-ups, sprint planning, and retrospectives, ensuring effective communication and continuous improvement within the team.",
+      Tasks7: "• Conducting system maintenance, including the performing system update, performing backups and maintaining system security",
+    },
+    {
+      CompanyName: "DKB Code Factory, Berlin, DE",
       specialization: "IT System Administrator in DevOps Team",
       MonthOfLeaving: "April 2022",
       YearOfLeaving: "Aug 2021",
@@ -100,7 +113,7 @@ let resumeData = {
       Tasks8: "• Proactively identify and address new requirements and potential problems",
     },
     {
-      CompanyName: "Curawork UG Bielefeld, Germany",
+      CompanyName: "Curawork, Bielefeld, DE",
       specialization: "Web development",
       MonthOfLeaving: "April 2021",
       YearOfLeaving: "Sep 2021",
@@ -179,7 +192,7 @@ let resumeData = {
     {
       name: "WhatsApp-Clone",
       description: "This is a demo or clone of whatsapp. It requires a google account for login and user authentication. The back end of this build was done with firebase but the hosting with github. Also, the react context API (Redux) was very helpful in accomplishing this app.",
-      imgurl: "https://www.tutorialxiaomi.com/wp-content/uploads/2018/07/whatsapp-clone.jpg",
+      imgurl: "https://repository-images.githubusercontent.com/377881498/918f0300-d3a7-11eb-8600-1063361aaeb7",
       projectImg: "https://nnange.github.io/WhatsApp-Clones/",
     },
     {

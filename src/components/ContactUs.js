@@ -14,7 +14,7 @@ const ContactUs = () => {
 
     
     console.log(name, email, subject, message);
-    history.push("/contact");
+    history("/contact");
 
     setName('');
     setEmail('');
@@ -34,7 +34,7 @@ const ContactUs = () => {
         </div>
       </div>
       <div className="row">
-        <aside className="eigth columns footer-widgets">
+        <aside className="eleven columns footer-widgets">
           <div className="widget">
 
             <form id="contactForm">

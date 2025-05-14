@@ -5,7 +5,7 @@ A simple SPA Portfolio template for developer/designers built with React. Use it
 1. Run  ``` npm install ```.
 2. Change the values in ```src/resumeData.js``` to suit your use-case.
 3. Run ```npm start``` to spin the up the local dev server port 3000.(http://localhost:3000).
-4. Make required changes in ```src/resumeData.js``` to suit your needs.
+4. Make required changes in ```src/resumeData.js``` that suit your needs.
 5. Before pushing the changes, REMOVE THE HOMPAGE LINE in the package.json file.
 ```"homepage": "https://nnange.github.io/awongPortfolio",```
 

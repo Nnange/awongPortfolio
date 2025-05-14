@@ -82,21 +82,15 @@ export default class Resume extends Component {
           </div>
 
           <div className="nine columns main-col">
-            <p>{resumeData.skillsDescription}</p>
-
-            <div className="bars">
-              <ul className="skills">
-                {resumeData.skills &&
-                  resumeData.skills.map((item, i) => {
-                    return (
-                      <li key={i}>
-                        <span
-                          className={`bar-expand ${item.skillname.toLowerCase()}`}
-                        ></span>
-                        <em>{item.skillname}</em>
-                      </li>
-                    );
-                  })}
+            <div className="">
+              <ul className="">
+                <strong>Languages:</strong> English (Native), German (B2), French (fluent)
+              </ul>
+              <ul className="">
+                <strong>Programming Languages:</strong> Java, SpringBoot, SQL, JavaScript, Typescript, Svelte, React, Swift
+              </ul>
+              <ul className="">
+                <strong>Hobbies/Interests:</strong> Football, Table tennis, Video Games, Driving, Astrology/Cosmology
               </ul>
             </div>
           </div>
