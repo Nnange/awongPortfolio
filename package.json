@@ -1,5 +1,4 @@
 {
-  "homepage": "https://nnange.github.io/awongPortfolio",
   "name": "resume",
   "version": "0.1.0",
   "private": true,
@@ -18,7 +17,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,6 +30,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.3.0"
   }
 }

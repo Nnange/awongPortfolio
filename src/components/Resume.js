@@ -2,6 +2,38 @@ import React, { Component } from "react";
 export default class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
+
+    function DisplayMonthYear(a) {
+      if (a === "Present") return "Present";
+      const date = new Date(a);
+      const month = date.toLocaleString("default", { month: "short" });
+      const year = date.getFullYear();
+      return `${month} ${year} `;
+    } 
+
+    function getDuration(startDate, endDate) {
+      const start = new Date(startDate);
+      let end;
+      if (endDate === "Present") {
+        end = new Date();
+      } else {
+        end = new Date(endDate);
+      }
+      const months =
+        (end.getFullYear() - start.getFullYear()) * 12 +
+        (end.getMonth() - start.getMonth()) + 1;
+        if (months > 12) {
+          const years = Math.floor(months / 12);
+          const remMonths = months % 12;
+          if (remMonths === 0) {
+            return `${years} yr${years > 1 ? "s" : ""}`;
+          }
+          return `${years} yr${years > 1 ? "s" : ""} ${remMonths} mo${remMonths > 1 ? "s" : ""}`;
+        }
+      return `${months} mo${months > 1 ? "s" : ""}`;
+    }
+      
+  
     return (
       <section id="resume">
         
@@ -23,18 +55,15 @@ export default class Resume extends Component {
                         {item.CompanyName}
                         <span>&bull;</span>{" "}
                         <em className="date">
-                          {item.MonthOfLeaving} – {item.YearOfLeaving} • {item.duration}
+                          { DisplayMonthYear(item.MonthOfLeaving) }
+                          – {DisplayMonthYear(item.YearOfLeaving)} • {getDuration(item.MonthOfLeaving, item.YearOfLeaving)}
                         </em>
                       </p>
                       <i>
-                        {item.Tasks1} <br/>
-                        {item.Tasks2} <br/>
-                        {item.Tasks3} <br/>
-                        {item.Tasks4} <br/>
-                        {item.Tasks5} <br/>
-                        {item.Tasks6} <br/>
-                        {item.Tasks7} <br/>
-                        {item.Tasks8} <br/>
+                        { item.Tasks.map((i) => {
+                            return <span key={i}> {i} <br /> </span>
+                          }) 
+                        }
                         <hr />
                       </i>
                     </div>
