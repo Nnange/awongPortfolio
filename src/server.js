@@ -3,6 +3,8 @@ let express = require('express');
 let app = express();
 let nodemailer = require('nodemailer');
 
+
+const pass = process.env.REACT_APP_FIREBASE_PASS;
 const path = require('path');
 
 // Static folder
@@ -14,7 +16,7 @@ nodemailer.createTransport({
     secure: false,
   auth: {
     user: "nnangea@gmail.com",
-    pass: "Akwehan5" 
+    pass: pass 
   }
 });
 

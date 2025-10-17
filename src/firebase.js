@@ -1,11 +1,14 @@
 import firebase from "firebase";
 
+const apiKey = process.env.REACT_APP_API_KEY;
+const databaseURL = process.env.REACT_APP_DATABASE_URL;
+
 // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   var firebaseConfig = {
-    apiKey: "AIzaSyDwFfCKEgoGzsf8OcM59STvM6MPyR8u1rg",
+    apiKey: apiKey,
     authDomain: "nnangeweb.firebaseapp.com",
-    databaseURL: "https://nnangeweb.firebaseio.com",
+    databaseURL: databaseURL,
     projectId: "nnangeweb",
     storageBucket: "nnangeweb.appspot.com",
     messagingSenderId: "1051512940139",
