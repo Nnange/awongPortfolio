@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/awongPortfolio/static/css/main.5db01fb7.css",
-    "main.js": "/awongPortfolio/static/js/main.cacf283b.js",
+    "main.js": "/awongPortfolio/static/js/main.decdd29b.js",
     "index.html": "/awongPortfolio/index.html",
     "main.5db01fb7.css.map": "/awongPortfolio/static/css/main.5db01fb7.css.map",
-    "main.cacf283b.js.map": "/awongPortfolio/static/js/main.cacf283b.js.map"
+    "main.decdd29b.js.map": "/awongPortfolio/static/js/main.decdd29b.js.map"
   },
   "entrypoints": [
     "static/css/main.5db01fb7.css",
-    "static/js/main.cacf283b.js"
+    "static/js/main.decdd29b.js"
   ]
 }
