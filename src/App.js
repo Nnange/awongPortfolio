@@ -5,7 +5,7 @@ import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 import resumeData from "./resumeData";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Contact from "./components/Contact";
 
 
@@ -16,7 +16,7 @@ class App extends Component {
         <div className="App">
           <Routes>
 
-            <Route path="/contact" element={<Contact/>}/>
+            {/* <Route path="/contact" element={<Contact/>}/> */}
 
             <Route path="/" element={
               <>
@@ -28,7 +28,8 @@ class App extends Component {
                 <Footer resumeData={resumeData} /> 
               </>
             }/>
-            {/* <Route element={<Testimonials resumeData={resumeData} />}/> */} 
+            {/* <Route element={<Testimonials resumeData={resumeData} />}/> */}
+ 
           </Routes>
        </div>
       </Router>
