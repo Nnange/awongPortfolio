@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/awongPortfolio/static/css/main.555d7be1.css",
-    "main.js": "/awongPortfolio/static/js/main.2e2cf4bf.js",
+    "main.css": "/awongPortfolio/static/css/main.5db01fb7.css",
+    "main.js": "/awongPortfolio/static/js/main.cacf283b.js",
     "index.html": "/awongPortfolio/index.html",
-    "main.555d7be1.css.map": "/awongPortfolio/static/css/main.555d7be1.css.map",
-    "main.2e2cf4bf.js.map": "/awongPortfolio/static/js/main.2e2cf4bf.js.map"
+    "main.5db01fb7.css.map": "/awongPortfolio/static/css/main.5db01fb7.css.map",
+    "main.cacf283b.js.map": "/awongPortfolio/static/js/main.cacf283b.js.map"
   },
   "entrypoints": [
-    "static/css/main.555d7be1.css",
-    "static/js/main.2e2cf4bf.js"
+    "static/css/main.5db01fb7.css",
+    "static/js/main.cacf283b.js"
   ]
 }
